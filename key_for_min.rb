@@ -20,6 +20,6 @@ def key_for_min_value(name_hash)
       answer_index = answer_index
     end
   end
-  return keys[answer_index]
 end
+return keys[answer_index]
 end
