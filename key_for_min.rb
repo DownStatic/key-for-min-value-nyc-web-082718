@@ -19,8 +19,8 @@ def key_for_min_value(name_hash)
     else
       answer_index = answer_index
     end
+  end
     return answer_inex
   end
-end
 return keys[answer_index]
 end
