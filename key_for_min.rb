@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
   end
   values.each do |number|
     for i in (0..(values.length-1))
-    if number <= values[i]
+    if values[i]<=number
       answer_index = i
     else
       answer_index = answer_index
